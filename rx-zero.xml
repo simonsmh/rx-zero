@@ -1,0 +1,41 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+<!-- Bad PUSH SDK -->
+<!-- Xiaomi mipush SDK -->
+<prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.sdk.service.MessageHandleService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.sdk.service.PushMessageHandler" sender="any" />
+<!-- Taobao push SDK -->
+<prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
+<prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
+<prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
+<!-- Igexin push SDK -->
+<prescription type="service" class="com.igexin.dowload.DownloadService" sender="any" />
+<prescription type="service" class="com.igexin.sdk.PushService" sender="any" />
+<prescription type="service" class="com.igexin.sdk.PushServiceUser" sender="any" />
+<!-- Tencent push SDK -->
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />
+<!-- Umeng push SDK -->
+<prescription type="service" class="com.umeng.update.net.DownloadingService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengService " sender="any" />
+<prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengIntentService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengMessageIntentReceiverService" sender="any" />
+<!-- Jpush push SDK -->
+<prescription type="service" class="cn.jpush.android.service.PushService" sender="any" />
+<prescription type="service" class="cn.jpush.android.service.DownloadService" sender="any" />
+<prescription type="service" class="cn.jpush.android.service.DaemonService" sender="any" />
+<!-- Baidu push SDK -->
+<prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any" />
+<prescription type="service" class="com.baidu.sapi2.share.ShareService" sender="any" />
+<!-- Dianping push SDK -->
+<prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />
+<prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />
+<prescription type="service" class="com.dianping.base.push.pushservice.PushWakeUpJob" sender="any" />
+<prescription type="service" class="com.dianping.base.push.pushservice.MZPushService" sender="any" />
+<!-- Low frequncy/Less harm push SDK should be ignored for its useless(single-application useable) situation. -->
+<!-- Personal function -->
+<prescription type="service" class="com.baidu.location.f" sender="any" />
+</prescriptions>
