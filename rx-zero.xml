@@ -58,10 +58,10 @@
 <prescription type="service" class="com.dianping.base.push.pushservice.MZPushService" sender="any" />
 <!-- Low frequncy/Less harm push SDK should be ignored for its useless(single-application useable) situation. -->
 <!-- Per app limitation -->
-<prescription type="service" package="com.nfyg.hsbb" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService"/>
-<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService"/>
-<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.GetuiIntentService"/>
-<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"/>
+<prescription type="service" package="com.nfyg.hsbb" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService" sender="any" />
+<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService" sender="any" />
+<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.GetuiIntentService" sender="any" />
+<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" sender="any" />
 <!-- Personal function -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
 </prescriptions>
