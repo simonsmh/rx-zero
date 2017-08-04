@@ -5,28 +5,49 @@
 <prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any" />
 <prescription type="service" class="com.xiaomi.push.sdk.service.MessageHandleService" sender="any" />
 <prescription type="service" class="com.xiaomi.push.sdk.service.PushMessageHandler" sender="any" />
+<prescription type="receiver" class="com.xiaomi.push.service.receivers.NetworkStatusReceiver" sender="any" />
+<prescription type="receiver" class="com.xiaomi.push.service.receivers.PingReceiver" sender="any" />
 <!-- Taobao push SDK -->
 <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
+<prescription type="service" class="org.android.agoo.accs.AgooService" sender="any" />
+<prescription type="receiver" class="com.taobao.accs.EventReceiver" sender="any" />
+<prescription type="receiver" class="com.taobao.accs.ServiceReceiver" sender="any" />
+<prescription type="receiver" class="com.taobao.agoo.AgooCommondReceiver" sender="any" />
 <!-- Igexin push SDK -->
-<prescription type="service" class="com.igexin.dowload.DownloadService" sender="any" />
+<prescription type="service" class="com.igexin.dowload.DownloadService" sender="other-app" />
 <prescription type="service" class="com.igexin.sdk.PushService" sender="any" />
 <prescription type="service" class="com.igexin.sdk.PushServiceUser" sender="any" />
+<prescription type="activity" class="com.igexin.sdk.PushActivity" sender="any" />
+<prescription type="activity" class="com.igexin.sdk.GActivity" sender="any" />
+<prescription type="activity" class="com.igexin.getuiext.activity.GetuiExtActivity" sender="any" />
+<prescription type="receiver" class="com.igexin.sdk.PushReceiver" sender="any" />
+<prescription type="receiver" class="com.igexin.sdk.PushManagerReceiver" sender="any" />
+<prescription type="receiver" class="com.igexin.getuiext.service.PayloadReceiver" sender="any" />
+<prescription type="receiver" class="com.igexin.download.DownloadReceiver" sender="other-app" />
 <!-- Tencent push SDK -->
 <prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any" />
 <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />
 <prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />
+<prescription type="activity" class="com.tencent.android.tpush.XGPushActivity" sender="any" />
+<prescription type="receiver" class="com.tencent.android.tpush.XGPushReceiver" sender="any" />
 <!-- Umeng push SDK -->
-<prescription type="service" class="com.umeng.update.net.DownloadingService" sender="any" />
-<prescription type="service" class="com.umeng.message.UmengService " sender="any" />
-<prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any" />
+<prescription type="service" class="com.umeng.update.net.DownloadingService" sender="other-app" />
+<prescription type="service" class="com.umeng.message.UmengService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="other-app" />
 <prescription type="service" class="com.umeng.message.UmengIntentService" sender="any" />
 <prescription type="service" class="com.umeng.message.UmengMessageIntentReceiverService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengMessageCallbackHandlerService" sender="any" />
+<prescription type="receiver" class="com.umeng.message.NotificationProxyBroadcastReceiver" sender="any" />
 <!-- Jpush push SDK -->
 <prescription type="service" class="cn.jpush.android.service.PushService" sender="any" />
-<prescription type="service" class="cn.jpush.android.service.DownloadService" sender="any" />
+<prescription type="service" class="cn.jpush.android.service.DownloadService" sender="other-app" />
 <prescription type="service" class="cn.jpush.android.service.DaemonService" sender="any" />
+<prescription type="activity" class="cn.jpush.android.ui.PushActivity" sender="any" />
+<prescription type="activity" class="cn.jpush.android.ui.PopWinActivity" sender="any" />
+<prescription type="receiver" class="cn.jpush.android.service.PushReceiver" sender="any" />
+<prescription type="receiver" class="cn.jpush.android.service.AlarmReceiver" sender="any" />
 <!-- Baidu push SDK -->
 <prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any" />
 <prescription type="service" class="com.baidu.sapi2.share.ShareService" sender="any" />
@@ -36,6 +57,11 @@
 <prescription type="service" class="com.dianping.base.push.pushservice.PushWakeUpJob" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.MZPushService" sender="any" />
 <!-- Low frequncy/Less harm push SDK should be ignored for its useless(single-application useable) situation. -->
+<!-- Per app limitation -->
+<prescription type="service" package="com.nfyg.hsbb" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService"/>
+<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService"/>
+<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.GetuiIntentService"/>
+<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"/>
 <!-- Personal function -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
 </prescriptions>
