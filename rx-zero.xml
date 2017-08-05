@@ -62,6 +62,7 @@
 <prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService" sender="any" />
 <prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.GetuiIntentService" sender="any" />
 <prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" sender="any" />
+<prescription type="service" package="com.panda.videoliveplatform" class="tv.panda.component.PSService" sender="any" />
 <!-- Personal function -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
 </prescriptions>
