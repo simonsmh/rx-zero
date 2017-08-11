@@ -58,13 +58,14 @@
 <prescription type="service" class="com.dianping.base.push.pushservice.PushWakeUpJob" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.MZPushService" sender="any" />
 <!-- Low frequncy/Less harm push SDK should be ignored for its useless(single-application useable) situation. -->
+<prescription type="service" class="com.tencent.qalsdk.service.QalService" sender="any" />
+<prescription type="service" class="com.tencent.qalsdk.service.QalAssistService" sender="any" />
+<prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
 <!-- Per app limitation -->
-<prescription type="service" package="com.nfyg.hsbb" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService" sender="any" />
 <prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService" sender="any" />
 <prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.GetuiIntentService" sender="any" />
 <prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" sender="any" />
 <prescription type="service" package="com.panda.videoliveplatform" class="tv.panda.component.PSService" sender="any" />
-<prescription type="service" package="air.tv.douyu.android" class="com.tencent.qalsdk.service.QalService" sender="any" />
 <prescription type="service" package="air.tv.douyu.android" class="tv.douyu.framework.service.DouyuDownService" sender="any" />
 <prescription type="service" package="air.tv.douyu.android" class="com.douyu.message.service.MessageService" sender="any" />
 <prescription type="service" package="air.tv.douyu.android" class="com.douyu.yuba.service.LaunchService" sender="any" />
@@ -74,9 +75,9 @@
 <prescription type="service" package="com.gracecode.android.gojuon" class="com.gracecode.android.gojuon.service.PronounceService" sender="any" />
 <prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.keeplive.SlaveService" sender="any" />
 <prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.keeplive.MasterService" sender="any" />
-<prescription type="service" package="com.nfyg.hsbb" class="com.wifi8.www.connplat_sdk.Service.ConnSDKService" sender="any" />
 <prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiPushService" sender="any" />
 <prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiIntentService" sender="any" />
+<prescription type="service" package="com.weico.international" class="com.weico.international.service.WeicoNewMsgPullService" sender="any" />
 <!-- Personal function -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
 </prescriptions>
