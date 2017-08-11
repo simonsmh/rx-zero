@@ -19,6 +19,7 @@
 <prescription type="service" class="com.igexin.dowload.DownloadService" sender="other-app" />
 <prescription type="service" class="com.igexin.sdk.PushService" sender="any" />
 <prescription type="service" class="com.igexin.sdk.PushServiceUser" sender="any" />
+<prescription type="service" class="com.igexin.getuiext.service.GetuiExtService" sender="any" />
 <prescription type="activity" class="com.igexin.sdk.PushActivity" sender="any" />
 <prescription type="activity" class="com.igexin.sdk.GActivity" sender="any" />
 <prescription type="activity" class="com.igexin.getuiext.activity.GetuiExtActivity" sender="any" />
@@ -65,6 +66,17 @@
 <prescription type="service" package="com.panda.videoliveplatform" class="tv.panda.component.PSService" sender="any" />
 <prescription type="service" package="air.tv.douyu.android" class="com.tencent.qalsdk.service.QalService" sender="any" />
 <prescription type="service" package="air.tv.douyu.android" class="tv.douyu.framework.service.DouyuDownService" sender="any" />
+<prescription type="service" package="air.tv.douyu.android" class="com.douyu.message.service.MessageService" sender="any" />
+<prescription type="service" package="air.tv.douyu.android" class="com.douyu.yuba.service.LaunchService" sender="any" />
+<prescription type="service" package="air.tv.douyu.android" class="com.douyu.push.platform.getui.GetuiPushService" sender="any" />
+<prescription type="service" package="air.tv.douyu.android" class="com.douyu.push.platform.getui.GetuiMessageHandleService" sender="any" />
+<prescription type="service" package="com.sdu.didi.psnger" class="com.didi.travel.psnger.service.DiDiTravelService" sender="any" />
+<prescription type="service" package="com.gracecode.android.gojuon" class="com.gracecode.android.gojuon.service.PronounceService" sender="any" />
+<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.keeplive.SlaveService" sender="any" />
+<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.keeplive.MasterService" sender="any" />
+<prescription type="service" package="com.nfyg.hsbb" class="com.wifi8.www.connplat_sdk.Service.ConnSDKService" sender="any" />
+<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiPushService" sender="any" />
+<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiIntentService" sender="any" />
 <!-- Personal function -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
 </prescriptions>
