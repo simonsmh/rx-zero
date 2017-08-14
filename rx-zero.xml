@@ -73,8 +73,6 @@
 <prescription type="service" package="air.tv.douyu.android" class="com.douyu.push.platform.getui.GetuiMessageHandleService" sender="any" />
 <prescription type="service" package="com.sdu.didi.psnger" class="com.didi.travel.psnger.service.DiDiTravelService" sender="any" />
 <prescription type="service" package="com.gracecode.android.gojuon" class="com.gracecode.android.gojuon.service.PronounceService" sender="any" />
-<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.keeplive.SlaveService" sender="any" />
-<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.keeplive.MasterService" sender="any" />
 <prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiPushService" sender="any" />
 <prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiIntentService" sender="any" />
 <prescription type="service" package="com.weico.international" class="com.weico.international.service.WeicoNewMsgPullService" sender="any" />
